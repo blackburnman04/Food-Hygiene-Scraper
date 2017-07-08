@@ -54,8 +54,7 @@ class RestaurantScraper(object):
 
     def scrape_page(self, url):
         """
-        This is coming from your original code snippet. This probably need a bit of work, but you get the idea.
-        :param url: Url to scrape and get data from.
+        
         :return:
         """
         time.sleep(5)
