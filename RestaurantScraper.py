@@ -14,7 +14,7 @@ def savefile():
     filename = input("Please input name of file to be saved")        
     with open (filename + '.csv','w') as file:
        writer=csv.writer(file)
-       writer.writerow(['Address','Town', 'Price', 'Period'])
+       writer.writerow(['Address','Town', 'Rating'])
        for row in hygiene:
           writer.writerow(row)
     print("File Saved Successfully")
